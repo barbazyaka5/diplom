@@ -1,0 +1,6 @@
+public static Session3_XXEntities GetContext()
+        {
+            if (_context == null)
+                _context = new Session3_XXEntities();
+            return _context;
+        }
